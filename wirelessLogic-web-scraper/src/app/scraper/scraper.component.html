@@ -1,0 +1,7 @@
+<div class="container mt-3"><label style="padding-right: 10px;">URL :- </label>
+    <input type="text" [(ngModel)]="webUrl" placeholder="enter URL" />
+    <button type="submit" class="btn btn-primary ms-3" (click)="getProductData()">Scrape</button>
+
+    <h5 class="mt-5">Output</h5>
+    <ngx-json-viewer [json]="producatData"></ngx-json-viewer>
+</div>

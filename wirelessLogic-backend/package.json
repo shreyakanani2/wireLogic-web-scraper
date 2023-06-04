@@ -1,0 +1,30 @@
+{
+  "name": "wirelogic-backend",
+  "version": "1.0.0",
+  "description": "Backend project to scrape website and get Json data",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shreyakanani2/wireLogic-web-scraper.git"
+  },
+  "keywords": [
+    "scrape"
+  ],
+  "author": "shreya kanani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shreyakanani2/wireLogic-web-scraper/issues"
+  },
+  "homepage": "https://github.com/shreyakanani2/wireLogic-web-scraper#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
