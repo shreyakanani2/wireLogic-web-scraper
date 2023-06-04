@@ -15,5 +15,5 @@ ng serve
 npm install
 
 # Run app
-nodemon server.js
+npm start
 
