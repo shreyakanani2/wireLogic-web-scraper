@@ -1,6 +1,16 @@
-<div class="container mt-3"><label style="padding-right: 10px;">URL :- </label>
-    <input type="text" [(ngModel)]="webUrl" placeholder="enter URL" />
-    <button type="submit" class="btn btn-primary ms-3" (click)="getProductData()">Scrape</button>
+<div class="container mt-3">
+    <div class="row">
+        <div class="col-auto">
+            <label class="col-form-label ">URL :- </label>
+        </div>
+        <div class="col-md-3">
+            <input type="text" class="form-control" [(ngModel)]="webUrl" placeholder="enter URL" />
+        </div>
+        <div class="col-auto">
+            <button type="submit" class="btn btn-primary ms-2" (click)="getProductData()">Scrape</button>
+        </div>
+    </div>
+
 
     <h5 class="mt-5">Output</h5>
     <ngx-json-viewer [json]="producatData"></ngx-json-viewer>
