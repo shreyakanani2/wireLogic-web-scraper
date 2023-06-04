@@ -15,5 +15,5 @@ ng serve
 npm install
 
 # Run app
-node server.js
+nodemon server.js
 
